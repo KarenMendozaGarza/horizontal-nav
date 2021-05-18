@@ -1,0 +1,47 @@
+/* *Typefaces:* `Bevan` (from Google Fonts) and `sans-serif`
+- *Line height:* `1.5`
+- *Colours:* `#fff`, `#79756f`, `#595652`, `#713837`, `#f33`, `#dbd6cf`
+- *Paddings:* `.6em`, `.5em .75em`
+- *Margin:* `.3em` */
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dbd6cf;
+}
+
+header {
+  background-color: #79756f;
+  border: #595652 solid 2px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bevan', serif;
+  color: #fff;
+}
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: .6em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #713837;
+  border-radius: 6px;
+}
+
+nav li a:hover{
+  background-color: #f33;
+}
