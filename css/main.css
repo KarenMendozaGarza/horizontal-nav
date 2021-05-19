@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: sans-serif
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -21,27 +21,37 @@ body {
 
 header {
   background-color: #79756f;
-  border: #595652 solid 2px;
+  border: #595652 solid 3px;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Bevan', serif;
+  font-family: "Bevan", serif;
+  font-weight: normal;
   color: #fff;
+  margin: .25em 0 0;
 }
+
+nav ul {
+  margin: 0 0 .75em;
+  padding-left: 0;
+}
+
 nav li {
+  list-style-type: none;
   display: inline;
 }
 
 nav a {
   display: inline-block;
-  padding: .6em;
+  padding: .65em .75em;
+  margin-bottom: .25em;
   text-decoration: none;
   color: #fff;
   background-color: #713837;
   border-radius: 6px;
 }
 
-nav li a:hover{
+nav li a:hover {
   background-color: #f33;
 }
